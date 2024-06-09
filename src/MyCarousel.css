@@ -1,0 +1,16 @@
+.carousel-item-custom {
+    height: 600px;
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item-custom img {
+    max-height: 40%;
+    max-width: 40%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}

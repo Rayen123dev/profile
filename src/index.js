@@ -3,10 +3,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import NavBar from './NavBar';
+import Cards from './cards';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Stage from './Stage';
+import Piece from './piece';
+import Footer from './footer';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <NavBar />
+    <Cards />
+    <br></br>
+    <br></br>
+    <Stage />
+    <br></br>
+    <br></br>
+    <Piece />
+    <br></br>
+    <br></br>
+    <Footer />
     <App />
   </React.StrictMode>
 );
