@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Stage from './Stage';
 import Piece from './piece';
 import Footer from './footer';
+import Competence from './competence';
 
 
 
@@ -23,6 +24,9 @@ root.render(
     <br></br>
     <br></br>
     <Piece />
+    <br></br>
+    <br></br>
+    <Competence />
     <br></br>
     <br></br>
     <Footer />
