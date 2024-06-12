@@ -1,7 +1,4 @@
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
-import Row from 'react-bootstrap/Row';
+import React from 'react';
 import c from './Photo/c.png';
 import java from './Photo/java.png';
 import Python from './Photo/Python-logo-notext.svg.png';
@@ -23,103 +20,95 @@ import cisko from './Photo/cisko.png';
 import photoshop from './Photo/ps.png';
 import unix from './Photo/unix.png';
 import windows from './Photo/windows.png';
+import './MyCarousel.css';
 
 
-function competence() {
+const skills = [
+    {
+        category: 'Programming Languages',
+        items: [
+            { src: c, name: 'C' },
+            { src: java, name: 'Java' },
+            { src: Python, name: 'Python' },
+            { src: dart, name: 'Dart' },
+            { src: js, name: 'JavaScript' },
+            { src: php, name: 'PHP' },
+        ],
+    },
+    {
+        category: 'Web Development',
+        items: [
+            { src: html, name: 'HTML' },
+            { src: css, name: 'CSS' },
+            { src: react, name: 'React' },
+            { src: angular, name: 'Angular' },
+            { src: symfoney, name: 'Symfony' },
+            { src: springboot, name: 'Spring Boot' },
+            { src: javafx, name: 'JavaFX' },
+        ],
+    },
+    {
+        category: 'Mobile Development',
+        items: [
+            { src: flutter, name: 'Flutter' },
+            { src: flutterflow, name: 'FlutterFlow' },
+        ],
+    },
+    {
+        category: 'Databases',
+        items: [
+            { src: sql, name: 'SQL' },
+            { src: fb, name: 'Firebase' },
+        ],
+    },
+    {
+        category: 'Operating Systems',
+        items: [
+            { src: windows, name: 'Windows' },
+            { src: unix, name: 'Unix' },
+        ],
+    },
+    {
+        category: 'Tools and Platforms',
+        items: [
+            { src: cisko, name: 'Cisco' },
+            { src: photoshop, name: 'Photoshop' },
+        ],
+    },
+];
+
+function Competence() {
     return (
-        <Container>
-            <center><h3 style={{ color: 'Black' }}>Competence</h3></center>
-            <br></br>
-            <center>
-                <Row>
-                    <Col xs={6} md={3}>
-                        <Image src={c} rounded width={50} />
-                    </Col>
-                    <Col xs={6} md={3}>
-                        <Image src={java} rounded width={50} />
-                    </Col>
-                    <Col xs={6} md={3}>
-                        <Image src={Python} rounded width={50} />
-                    </Col>
-                    <Col xs={6} md={3}>
-                        <Image src={dart} rounded width={50} />
-                    </Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col xs={6} md={3}>
-                        <Image src={html} rounded width={50} />
-                    </Col>
-                    <Col xs={6} md={3}>
-                        <Image src={css} rounded width={75} />
-                    </Col>
-                    <Col xs={6} md={3}>
-                        <Image src={php} rounded width={70} />
-                    </Col>
-                    <Col xs={6} md={3}>
-                        <Image src={js} rounded width={50} />
-                    </Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col xs={6} md={6}>
-                        <Image src={sql} rounded width={70} />
-                    </Col>
-                    <Col xs={6} md={6}>
-                        <Image src={fb} rounded width={50} />
-                    </Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col xs={6} md={6}>
-                        <Image src={flutter} rounded width={50} />
-                    </Col>
-                    <Col xs={6} md={6}>
-                        <Image src={flutterflow} rounded width={50} />
-                    </Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col xs={6} md={1}>
-
-                    </Col>
-                    <Col xs={6} md={2}>
-                        <Image src={react} rounded width={70} />
-                    </Col>
-                    <Col xs={6} md={2}>
-                        <Image src={angular} rounded width={50} />
-                    </Col>
-                    <Col xs={6} md={2}>
-                        <Image src={javafx} rounded width={65} />
-                    </Col>
-                    <Col xs={6} md={2}>
-                        <Image src={springboot} rounded width={50} />
-                    </Col>
-                    <Col xs={6} md={2}>
-                        <Image src={symfoney} rounded width={50} />
-                    </Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col xs={6} md={6}>
-                        <Image src={cisko} rounded width={50} />
-                    </Col>
-                    <Col xs={6} md={6}>
-                        <Image src={photoshop} rounded width={50} />
-                    </Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col xs={6} md={6}>
-                        <Image src={windows} rounded width={150} />
-                    </Col>
-                    <Col xs={6} md={6}>
-                        <Image src={unix} rounded width={150} />
-                    </Col>
-                </Row>
-            </center>
-        </Container>
+        <div className="team" id="team">
+            <div className="container">
+                <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Skills</p>
+                    <h2>Expert Skills</h2>
+                </div>
+                {skills.map((category, categoryIndex) => (
+                    <div key={categoryIndex}>
+                        <div className="row">
+                            {category.items.map((skill, skillIndex) => (
+                                <div className="col-lg-3 wow fadeInUp" data-wow-delay={`${0.4 * skillIndex}s`} key={skill.name}>
+                                    <div className="team-item">
+                                        <div className="team-img">
+                                            <img src={skill.src} alt={skill.name} width={40} />
+                                        </div>
+                                        <div className="team-text">
+                                            <h2>{skill.name}</h2>
+                                            <p>
+                                                {category.category}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
     );
 }
 
-export default competence;
+export default Competence;

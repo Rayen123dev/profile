@@ -10,27 +10,19 @@ import Stage from './Stage';
 import Piece from './piece';
 import Footer from './footer';
 import Competence from './competence';
-import About from './about';
-import Universite from './universite';
-import Blog from './blog';
-
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode class="body">
-    <NavBar />
-    <Cards />
-    <About />
-    <Universite />
-    <Stage />
-    <Piece />
-    <Blog />
-    <Competence />
-    <Footer />
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <NavBar />
+        <Competence />
+        <br></br>
+        <br></br>
+        <Footer />
+        <App />
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
