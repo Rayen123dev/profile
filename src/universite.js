@@ -23,7 +23,8 @@ function universite() {
                             <div class="service-text">
                                 <h3>ISTIC</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                    L’Institut Supérieur des Technologies de l’Information et de la Communication est un établissement universitaire public appartenant à l’Université de Carthage. Il est situé dans la Technopole de Borj Cédria dans la banlieue sud de la ville de Tunis. Aujourd’hui, il est l'un des plus jeunes institutions de la Tunisie.
+                                    Il est destiné à former des compétences dans les domaines de l’informatique, des Technologies de l’Information et de la Communication et de l’informatique industrielle
                                 </p>
                             </div>
                         </div>
@@ -38,8 +39,7 @@ function universite() {
                             <div class="service-text">
                                 <h3>ESPRIT</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                                </p>
+                                    Esprit, une institution éducative de premier plan, valorise l'excellence, l'innovation et le développement holistique. Elle crée un environnement où la rigueur académique, l'intégrité éthique et la responsabilité sociale sont primordiales. Esprit encourage la créativité, la pensée critique et le travail d'équipe, préparant ainsi ses étudiants à devenir des professionnels compétents et des citoyens responsables.                                </p>
                             </div>
                         </div>
                     </div>
