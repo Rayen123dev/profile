@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 import Figure from 'react-bootstrap/Figure';
-import cvimage from './Photo/cv.jpg';// Import the image
+import cvimage from './Photo/cv2.jpg';// Import the image
 import lettreimage from './Photo/Lm.jpg';// Import the image
 import Container from 'react-bootstrap/Container';
 import './MyCarousel.css';

@@ -23,7 +23,7 @@ function Cards() {
                             <div class="hero-text">
                                 <p>I'm</p>
                                 <h1>Rayen benmassaoud</h1>
-                                <h2>23 Years Old</h2>
+                                <h2>22 Years Old</h2>
                                 <div class="typed-text">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
                             </div>
                         </div>

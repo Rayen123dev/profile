@@ -20,6 +20,11 @@ import cisko from './Photo/cisko.png';
 import photoshop from './Photo/ps.png';
 import unix from './Photo/unix.png';
 import windows from './Photo/windows.png';
+import jenkins from './Photo/jenkins.png';
+import sonar from './Photo/sonar.png';
+import vagrant from './Photo/vagrant.png';
+import virtuel from './Photo/virtuel.png';
+import docker from './Photo/docker.png';
 import './MyCarousel.css';
 
 
@@ -73,6 +78,31 @@ const skills = [
         items: [
             { src: cisko, name: 'Cisco' },
             { src: photoshop, name: 'Photoshop' },
+        ],
+    },
+    {
+        category: 'CI\CD Tools',
+        items: [
+            { src: jenkins, name: 'Jenkins' },
+        ],
+    },
+    {
+        category: 'Code Quality',
+        items: [
+            { src: sonar, name: 'SonarQube' },
+        ],
+    },
+    {
+        category: 'Visualization',
+        items: [
+            { src: vagrant, name: 'Vagrant' },
+            { src: virtuel, name: 'VirtuelBox' },
+        ],
+    },
+    {
+        category: 'Containerization',
+        items: [
+            { src: docker, name: 'Docker' },
         ],
     },
 ];

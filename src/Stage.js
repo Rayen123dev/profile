@@ -34,6 +34,14 @@ function Stage() {
                             <p>Chez Horizon Data, nous fournissons des solutions informatiques et des services cloud pour les petites et moyennes entreprises. Notre agence de gestion des réseaux sociaux vous aide à tirer le meilleur parti de votre présence numérique en gérant votre réputation en ligne, tout en veillant à ce que vous atteigniez votre public cible.</p>
                         </div>
                     </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2024 - NOW</div>
+                            <h2>BTK</h2>
+                            <h4>BTK Bank (Devloppement en IT)</h4>
+                            <p>La BTK Bank ou BTK, fondée en 1980 sous le nom originel de Banque tuniso-koweïtienne de développement puis simplement appelée Banque tuniso-koweïtienne à partir de 2007, est une banque universelle dont le siège se trouve à Tunis .</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

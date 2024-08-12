@@ -17,10 +17,10 @@ function About() {
                         <div class="about-content">
                             <div class="section-header text-left">
                                 <p>Learn About Me</p>
-                                <h2>Etudiant en ingenieurie informatique</h2>
+                                <h2>Software Engineering & Cloud Computing Student | Future IT Architect</h2>
                             </div>
                             <div class="about-text">
-                                <p>Je suis Rayen Ben Massaoud, un étudiant en première année de cycle ingénieur en informatique à l'ESPRIT (École Supérieure Privée d'Ingénierie et de Technologie) à Tunis. Titulaire d'un diplôme de Licence en Génie Logiciel et Système Informatique de l'ISTIC (Institut Supérieur des Technologies de l'Information et de la Communication), je suis passionné par le domaine de l'informatique et du développement de solutions innovantes.</p>
+                                <p>Je suis Rayen Ben Massaoud, un étudiant en deuxiéme année de cycle ingénieur en informatique spécialite ArcTic (Architecture IT et Cloud) à l'ESPRIT (École Supérieure Privée d'Ingénierie et de Technologie) à Tunis. Titulaire d'un diplôme de Licence en Génie Logiciel et Système Informatique de l'ISTIC (Institut Supérieur des Technologies de l'Information et de la Communication), je suis passionné par le domaine de l'informatique et du développement de solutions innovantes.</p>
                             </div>
                             <div class="skills">
                                 <div class="skill-name">
@@ -73,6 +73,18 @@ function About() {
                                 </div>
                                 <div class="skill-name">
                                     <p>Data analytics</p><p></p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>DevOps</p><p></p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Cloud</p><p></p>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
